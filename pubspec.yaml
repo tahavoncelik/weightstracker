@@ -1,0 +1,45 @@
+name: weightstracker
+description: An app you can save your workouts, your weights etc.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Design
+  cupertino_icons: ^1.0.2
+  kartal: ^3.4.1
+
+  # NoSQL Database
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # State Management
+  bloc: ^8.1.2
+  flutter_bloc: ^8.1.3
+
+  # Equality
+  equatable: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator:
+  build_runner:
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  # Assets
+  assets:
+    - lib/assets/login1.png
+    - lib/assets/home1.png
+    - lib/assets/home2.png
+    - lib/assets/home3.png
+
+
+
+  uses-material-design: true
